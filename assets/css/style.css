@@ -1,0 +1,80 @@
+.attribution { font-size: 11px; text-align: center; } 
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+ --cyan:hsl(179, 62%, 43%);
+ --bright: hsl(71, 73%, 54%);
+ --light: hsl(204, 43%, 93%);
+ --blue: hsl(218, 22%, 67%);
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+section {
+    /* border: 1px solid black; */
+    /* position: relative;
+    flex-wrap: wrap; */
+    padding: 5%;
+}
+
+h1 {
+    color: var(--cyan);
+}
+
+h2 {
+    color: var(--bright);
+    font-size: medium;
+}
+
+h3 {
+    color: var(--light);
+}
+
+#dollar {
+    font-size: large;
+    font-weight: 700;
+}
+
+button {
+    background-color: var(--bright);
+    border-radius: 10%;
+    color: var(--light);
+    box-shadow: 1px 1px rgba(114, 114, 114, 0.79);
+    border: none;
+}
+
+.two p {
+    color: var(--light);
+}
+
+.three p {
+    color: var(--light);
+}
+
+.one p {
+    color: var(--blue);
+}
+
+.one {
+    width: 500px;
+    height: 200px;
+}
+
+.two {
+    background-color: var(--cyan);
+    width: 200px;
+    height: 200px;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+}
